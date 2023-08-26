@@ -1,0 +1,14 @@
+{
+  "name": "midjourney-api-vercel",
+  "version": "0.1.0",
+  "description": "REST API for Midjourney",
+  "main": "api/image.js",
+  "author": "Tom Söderlund <tom@tomsoderlund.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn start",
+    "start": "vercel dev --listen 3101",
+    "lint": "standard",
+    "fix": "standard --fix"
+  }
+}
